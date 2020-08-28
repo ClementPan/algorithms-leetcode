@@ -3,7 +3,7 @@ const longestCommonPrefix = function (strs) {
     return ''
   } else if (strs.length === 1) {
     return strs[0]
-  } else if (Boolean(strs.map(e => Number(e === '')).find(f => f === 1))) {
+  } else if (strs.map(e => Number(e === '')).find(f => f === 1)) {
     return ''
   } else {
     const strings = strs
