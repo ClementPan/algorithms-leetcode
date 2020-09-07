@@ -8,4 +8,4 @@
 
 #### Here they are.
 
-![Medium](/images/readmeImg.png)
+![Medium](./images/readmeImg.png)
