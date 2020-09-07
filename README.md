@@ -5,3 +5,7 @@
 [MEDIUM](https://medium.com/@zzz2999582)
 
 #### Oh, besides LeetCode, I would sometimes try to resolve some CodeWars problems, and they will be updated here too.
+
+#### Here they are.
+
+![Medium](/images/readmeImg.png)
