@@ -5,6 +5,9 @@
 // 空間複雜度：O( 1  )
 // 時間複雜度：O( n² )
 
+const arr = [5, 1, 2, 4, 3, 6, 9, 8, 0]
+selectionSort(arr)
+
 const selectionSort = (nums) => {
   console.log(`Beginning Array： [${nums}]`)
   for (let i = 0; i < nums.length; i++) {
@@ -27,7 +30,15 @@ const selectionSort = (nums) => {
   }
   console.log(`Sorted Array: [${nums}]`)
   return nums
-};
+}
 
-const arr = [5, 1, 2, 4, 3, 6, 9, 8, 0]
-selectionSort(arr)
+const selectionSortWithNoComment = (nums) => {
+  for (let i = 0; i < nums.length; i++) {
+    for (let j = i; j < nums.length; j++) {
+      if (nums[j] < nums[i]) {
+        [nums[i], nums[j]] = [nums[j], nums[i]]
+      }
+    }
+  }
+  return nums
+};
